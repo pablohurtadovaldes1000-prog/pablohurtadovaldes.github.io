@@ -1,0 +1,183 @@
+﻿/* Configuración de la fuente Inter para el cuerpo y Poiret One para el título */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poiret+One&display=swap');
+
+/* Clase personalizada para el nuevo estilo del nombre */
+.font-poiret {
+    font-family: 'Poiret One', cursive;
+    /* Aumento del espaciado para un look más distinguido */
+    letter-spacing: 0.2em; 
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Estilo para las secciones */
+.section-padding {
+    padding: 4rem 1rem;
+}
+
+@media (min-width: 768px) {
+    .section-padding {
+        padding: 6rem 4rem;
+    }
+}
+
+/* Estilo para el contenedor del video (aspect ratio 16:9) */
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Animación suave para la imagen de fondo */
+@keyframes slowZoom {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
+
+.animate-slow-zoom {
+    animation: slowZoom 20s infinite alternate ease-in-out;
+}
+
+/* --- NUEVOS ESTILOS PARA OCULTAR EL SCROLLBAR --- */
+/* Ocultar barra de desplazamiento para IE, Edge y Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Ocultar barra de desplazamiento para navegadores basados en WebKit (Chrome, Safari, Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+/* ----------------------------------------------- */
+
+/* Scrollbar minimalista y elegante para modales */
+#illustrationModalContent::-webkit-scrollbar,
+#photographyModalContent::-webkit-scrollbar,
+#hironoModalContent::-webkit-scrollbar,
+#mockupModalContent::-webkit-scrollbar {
+    width: 6px;
+}
+
+#illustrationModalContent::-webkit-scrollbar-track,
+#photographyModalContent::-webkit-scrollbar-track,
+#hironoModalContent::-webkit-scrollbar-track,
+#mockupModalContent::-webkit-scrollbar-track {
+    background: rgba(39, 39, 42, 0.3);
+    border-radius: 10px;
+}
+
+#illustrationModalContent::-webkit-scrollbar-thumb,
+#photographyModalContent::-webkit-scrollbar-thumb,
+#hironoModalContent::-webkit-scrollbar-thumb,
+#mockupModalContent::-webkit-scrollbar-thumb {
+    background: rgba(161, 161, 170, 0.3);
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+#illustrationModalContent::-webkit-scrollbar-thumb:hover,
+#photographyModalContent::-webkit-scrollbar-thumb:hover,
+#hironoModalContent::-webkit-scrollbar-thumb:hover,
+#mockupModalContent::-webkit-scrollbar-thumb:hover {
+    background: rgba(161, 161, 170, 0.5);
+}
+
+/* Para Firefox */
+#illustrationModalContent,
+#photographyModalContent,
+#hironoModalContent,
+#mockupModalContent {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(161, 161, 170, 0.3) rgba(39, 39, 42, 0.3);
+}
+/* ----------------------------------------------- */
+
+/* Efecto de brillo para el nombre */
+.glow-text {
+    text-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(255, 255, 255, 0.6),
+        0 0 30px rgba(255, 255, 255, 0.4),
+        0 0 40px rgba(255, 255, 255, 0.2);
+    animation: glow-pulse 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow-pulse {
+    from {
+        text-shadow: 
+            0 0 10px rgba(255, 255, 255, 0.8),
+            0 0 20px rgba(255, 255, 255, 0.6),
+            0 0 30px rgba(255, 255, 255, 0.4),
+            0 0 40px rgba(255, 255, 255, 0.2);
+    }
+    to {
+        text-shadow: 
+            0 0 15px rgba(255, 255, 255, 1),
+            0 0 30px rgba(255, 255, 255, 0.8),
+            0 0 45px rgba(255, 255, 255, 0.6),
+            0 0 60px rgba(255, 255, 255, 0.4);
+    }
+}
+
+/* Animaciones de entrada para el contenido */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Clases para animaciones de entrada */
+.animate-on-scroll {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-delay-100 {
+    animation-delay: 0.1s;
+}
+
+.animate-delay-200 {
+    animation-delay: 0.2s;
+}
+
+.animate-delay-300 {
+    animation-delay: 0.3s;
+}
+
+.animate-delay-400 {
+    animation-delay: 0.4s;
+}
+
+.animate-delay-500 {
+    animation-delay: 0.5s;
+}
+
+.animate-delay-600 {
+    animation-delay: 0.6s;
+}

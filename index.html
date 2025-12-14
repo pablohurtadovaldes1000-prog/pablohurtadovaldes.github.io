@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurtado Valdés - Diseñador Multimedia</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Enlace a archivo CSS externo -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-zinc-900 text-white leading-relaxed">
+
+    <!-- Navbar/Navigation -->
+    <header id="navbar" class="sticky top-0 bg-zinc-900/80 backdrop-blur-md z-50 shadow-lg border-b border-white/5 transition-all duration-300">
+        <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#" class="z-50 transition duration-300 transform hover:scale-105">
+                <img src="images/LOGOWW.png" alt="Logo" class="h-8 md:h-10 transition duration-300">
+            </a>
+            
+            <!-- Botones de contacto móvil (visible solo en móvil) -->
+            <div class="md:hidden flex items-center space-x-4 z-50">
+                <!-- Botón de Email -->
+                <a href="mailto:p.hurtadovaldes@hotmail.com" class="p-2 text-zinc-400 hover:text-white transition duration-300" title="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                </a>
+                
+                <!-- Botón de WhatsApp -->
+                <a href="https://wa.me/525565007278" target="_blank" class="p-2 text-zinc-400 hover:text-white transition duration-300" title="WhatsApp">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="hidden md:flex space-x-8 text-sm font-medium z-50 items-center">
+                <a href="#presentacion" class="nav-link relative hover:text-zinc-400 transition duration-300">
+                    Inicio
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300"></span>
+                </a>
+                <a href="#habilidades" class="nav-link relative hover:text-zinc-400 transition duration-300">
+                    Habilidades
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300"></span>
+                </a>
+                <a href="#trabajo-reciente" class="nav-link relative hover:text-zinc-400 transition duration-300">
+                    Reciente
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300"></span>
+                </a>
+                <a href="#galeria" class="nav-link relative hover:text-zinc-400 transition duration-300">
+                    Destacados
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300"></span>
+                </a>
+                <a href="#trayectoria" class="nav-link relative hover:text-zinc-400 transition duration-300">
+                    Academia
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300"></span>
+                </a>
+                
+                <!-- Botón de Email -->
+                <a href="mailto:p.hurtadovaldes@hotmail.com" class="p-2 text-zinc-400 hover:text-white transition duration-300" title="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                </a>
+                
+                <!-- Botón de WhatsApp -->
+                <a href="https://wa.me/525565007278" target="_blank" class="p-2 text-zinc-400 hover:text-white transition duration-300" title="WhatsApp">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                    </svg>
+                </a>
+            </div>
+            <button id="menuButton" class="md:hidden p-2 text-white hover:text-zinc-400 transition duration-300 z-50">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 transition duration-300">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Menú Lateral Móvil -->
+    <div id="mobileMenu" class="fixed inset-0 z-40 pointer-events-none">
+        <!-- Overlay oscuro -->
+        <div id="menuOverlay" class="absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-300"></div>
+        
+        <!-- Panel lateral -->
+        <div id="menuPanel" class="absolute top-0 right-0 h-full w-72 bg-zinc-900/20 backdrop-blur-xl border-l border-zinc-800/50 shadow-2xl transform translate-x-full transition-all duration-300">
+            <!-- Botón cerrar minimalista -->
+            <div class="absolute top-6 right-6">
+                <button id="closeMenu" class="p-1 text-zinc-500 hover:text-white transition duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Enlaces del menú -->
+            <nav class="flex flex-col justify-center h-full px-8 space-y-8">
+                <a href="#presentacion" class="mobile-nav-link relative text-2xl font-light tracking-wide hover:text-zinc-400 transition duration-300 hover:translate-x-2 transform">
+                    Inicio
+                    <span class="absolute left-0 top-1/2 -translate-y-1/2 w-0 h-0.5 bg-white transition-all duration-300 -ml-6"></span>
+                </a>
+                <a href="#habilidades" class="mobile-nav-link relative text-2xl font-light tracking-wide hover:text-zinc-400 transition duration-300 hover:translate-x-2 transform">
+                    Habilidades
+                    <span class="absolute left-0 top-1/2 -translate-y-1/2 w-0 h-0.5 bg-white transition-all duration-300 -ml-6"></span>
+                </a>
+                <a href="#trabajo-reciente" class="mobile-nav-link relative text-2xl font-light tracking-wide hover:text-zinc-400 transition duration-300 hover:translate-x-2 transform">
+                    Reciente
+                    <span class="absolute left-0 top-1/2 -translate-y-1/2 w-0 h-0.5 bg-white transition-all duration-300 -ml-6"></span>
+                </a>
+                <a href="#galeria" class="mobile-nav-link relative text-2xl font-light tracking-wide hover:text-zinc-400 transition duration-300 hover:translate-x-2 transform">
+                    Destacados
+                    <span class="absolute left-0 top-1/2 -translate-y-1/2 w-0 h-0.5 bg-white transition-all duration-300 -ml-6"></span>
+                </a>
+                <a href="#trayectoria" class="mobile-nav-link relative text-2xl font-light tracking-wide hover:text-zinc-400 transition duration-300 hover:translate-x-2 transform">
+                    Academia
+                    <span class="absolute left-0 top-1/2 -translate-y-1/2 w-0 h-0.5 bg-white transition-all duration-300 -ml-6"></span>
+                </a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Modal de Edición de Video -->
+    <div id="videoModal" class="fixed inset-0 z-50 pointer-events-none">
+        <!-- Overlay -->
+        <div id="videoModalOverlay" class="absolute inset-0 bg-black/70 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        
+        <!-- Contenedor del modal -->
+        <div id="videoModalContent" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-5xl bg-zinc-900/95 backdrop-blur-xl border border-zinc-800 rounded-2xl shadow-2xl transform scale-95 opacity-0 transition-all duration-300">
+            <!-- Botón cerrar -->
+            <button id="closeVideoModal" class="absolute top-4 right-4 p-2 text-zinc-500 hover:text-white transition duration-300 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            
+            <!-- Contenido del modal -->
+            <div class="grid md:grid-cols-2 gap-8 p-8">
+                <!-- Video -->
+                <div class="rounded-lg overflow-hidden bg-black">
+                    <video id="modalVideo" controls class="w-full h-full object-cover">
+                        <source src="videos/trailer.mp4" type="video/mp4">
+                    </video>
+                </div>
+                
+                <!-- Descripción -->
+                <div class="flex flex-col justify-center">
+                    <h3 class="text-2xl font-bold text-white mb-4">Edición de Video</h3>
+                    <p class="text-zinc-400 mb-6 leading-relaxed">
+                        Especializado en post-producción de video, con experiencia en edición narrativa, corrección de color y efectos visuales. Trabajo con Adobe Premiere Pro, DaVinci Resolve y After Effects para crear contenido visual impactante.
+                    </p>
+                    <div class="border-t border-zinc-800 pt-6">
+                        <h4 class="text-sm font-semibold text-zinc-500 uppercase tracking-wider mb-3">Herramientas</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Premiere Pro</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">DaVinci Resolve</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">After Effects</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Final Cut Pro</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Motion Graphics -->
+    <div id="motionModal" class="fixed inset-0 z-50 pointer-events-none">
+        <!-- Overlay -->
+        <div id="motionModalOverlay" class="absolute inset-0 bg-black/70 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        
+        <!-- Contenedor del modal -->
+        <div id="motionModalContent" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-5xl bg-zinc-900/95 backdrop-blur-xl border border-zinc-800 rounded-2xl shadow-2xl transform scale-95 opacity-0 transition-all duration-300">
+            <!-- Botón cerrar -->
+            <button id="closeMotionModal" class="absolute top-4 right-4 p-2 text-zinc-500 hover:text-white transition duration-300 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            
+            <!-- Contenido del modal -->
+            <div class="grid md:grid-cols-2 gap-8 p-8">
+                <!-- Video -->
+                <div class="rounded-lg overflow-hidden bg-black">
+                    <video id="motionVideo" controls class="w-full h-full object-cover">
+                        <source src="videos/motion.mp4" type="video/mp4">
+                    </video>
+                </div>
+                
+                <!-- Descripción -->
+                <div class="flex flex-col justify-center">
+                    <h3 class="text-2xl font-bold text-white mb-4">Motion Graphics</h3>
+                    <p class="text-zinc-400 mb-6 leading-relaxed">
+                        Creación de gráficos animados y efectos visuales dinámicos. Especializado en animación 2D, diseño de transiciones y motion design para medios digitales, con enfoque en narrativa visual y storytelling.
+                    </p>
+                    <div class="border-t border-zinc-800 pt-6">
+                        <h4 class="text-sm font-semibold text-zinc-500 uppercase tracking-wider mb-3">Herramientas</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">After Effects</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Cinema 4D</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Blender</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Illustrator</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Publicidad y Canvas -->
+    <div id="canvasModal" class="fixed inset-0 z-50 pointer-events-none">
+        <!-- Overlay -->
+        <div id="canvasModalOverlay" class="absolute inset-0 bg-black/70 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        
+        <!-- Contenedor del modal -->
+        <div id="canvasModalContent" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-2xl bg-zinc-900/95 backdrop-blur-xl border border-zinc-800 rounded-2xl shadow-2xl transform scale-95 opacity-0 transition-all duration-300">
+            <!-- Botón cerrar -->
+            <button id="closeCanvasModal" class="absolute top-4 right-4 p-2 text-zinc-500 hover:text-white transition duration-300 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            
+            <!-- Contenido del modal -->
+            <div class="p-6">
+                <div class="rounded-lg overflow-hidden bg-zinc-800">
+                    <img src="canvas/cartel.webp" alt="Publicidad y Canvas" class="w-full h-auto object-contain grayscale hover:grayscale-0 transition duration-500 cursor-pointer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Branding & Mockups -->
+    <div id="mockupModal" class="fixed inset-0 z-50 pointer-events-none">
+        <!-- Overlay -->
+        <div id="mockupModalOverlay" class="absolute inset-0 bg-black/70 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        
+        <!-- Contenedor del modal -->
+        <div id="mockupModalContent" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-4xl bg-zinc-900/95 backdrop-blur-xl border border-zinc-800 rounded-2xl shadow-2xl transform scale-95 opacity-0 transition-all duration-300 max-h-[90vh] overflow-y-auto">
+            <!-- Botón cerrar -->
+            <button id="closeMockupModal" class="absolute top-4 right-4 p-2 text-zinc-500 hover:text-white transition duration-300 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            
+            <!-- Contenido del modal -->
+            <div class="p-8">
+                <h3 class="text-2xl font-bold text-white mb-6">Branding & Mockups</h3>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="mock/1.webp" alt="Mockup" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="mock/2.webp" alt="Mockup" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="mock/3.png" alt="Mockup" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="mock/4.png" alt="Mockup" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Diseño Editorial -->
+    <div id="editorialModal" class="fixed inset-0 z-50 pointer-events-none">
+        <!-- Overlay -->
+        <div id="editorialModalOverlay" class="absolute inset-0 bg-black/70 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        
+        <!-- Contenedor del modal -->
+        <div id="editorialModalContent" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-2xl bg-zinc-900/95 backdrop-blur-xl border border-zinc-800 rounded-2xl shadow-2xl transform scale-95 opacity-0 transition-all duration-300">
+            <!-- Botón cerrar -->
+            <button id="closeEditorialModal" class="absolute top-4 right-4 p-2 text-zinc-500 hover:text-white transition duration-300 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            
+            <!-- Contenido del modal -->
+            <div class="p-6">
+                <div class="rounded-lg overflow-hidden bg-zinc-800">
+                    <img src="revista/revista.webp" alt="Diseño Editorial" class="w-full h-auto object-contain grayscale hover:grayscale-0 transition duration-500 cursor-pointer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal del Proyecto Hirono -->
+    <div id="hironoModal" class="fixed inset-0 z-50 pointer-events-none">
+        <!-- Overlay -->
+        <div id="hironoModalOverlay" class="absolute inset-0 bg-black/70 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        
+        <!-- Contenedor del modal -->
+        <div id="hironoModalContent" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-5xl bg-zinc-900/95 backdrop-blur-xl border border-zinc-800 rounded-2xl shadow-2xl transform scale-95 opacity-0 transition-all duration-300 max-h-[90vh] overflow-y-auto">
+            <!-- Botón cerrar -->
+            <button id="closeHironoModal" class="absolute top-4 right-4 p-2 text-zinc-500 hover:text-white transition duration-300 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            
+            <!-- Contenido del modal -->
+            <div class="grid md:grid-cols-2 gap-8 p-8">
+                <!-- Galería de imágenes -->
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="hirono/1.jpg" alt="Hirono Stopmotion" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="hirono/2.jpg" alt="Hirono Stopmotion" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="hirono/3.jpg" alt="Hirono Stopmotion" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="hirono/4.jpg" alt="Hirono Stopmotion" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="hirono/5.jpg" alt="Hirono Stopmotion" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="hirono/6.jpg" alt="Hirono Stopmotion" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                </div>
+                
+                <!-- Descripción -->
+                <div class="flex flex-col justify-center">
+                    <h3 class="text-2xl font-bold text-white mb-4">"Hirono": Stopmotion & Puppetry</h3>
+                    <p class="text-zinc-400 mb-6 leading-relaxed">
+                        Proyecto de animación stop-motion donde participé como <strong class="text-zinc-300">Puppet Maker</strong> y <strong class="text-zinc-300">Director de Edición/Postproducción</strong>. Mi trabajo incluyó el diseño y fabricación de los personajes articulados, así como la supervisión completa del proceso de edición y postproducción, asegurando que cada fotograma mantuviera la visión artística del proyecto.
+                    </p>
+                    <p class="text-zinc-400 mb-6 leading-relaxed">
+                        El proceso combinó técnicas tradicionales de puppetry con tecnologías digitales de edición, logrando una narrativa visual única que explora la interacción entre personajes animados y escenarios físicos meticulosamente construidos.
+                    </p>
+                    <div class="border-t border-zinc-800 pt-6">
+                        <h4 class="text-sm font-semibold text-zinc-500 uppercase tracking-wider mb-3">Roles</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Puppet Maker</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Director de Edición</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Postproducción</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Stop-Motion</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Tipografía -->
+    <div id="typographyModal" class="fixed inset-0 z-50 pointer-events-none">
+        <!-- Overlay -->
+        <div id="typographyModalOverlay" class="absolute inset-0 bg-black/70 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        
+        <!-- Contenedor del modal -->
+        <div id="typographyModalContent" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-5xl bg-zinc-900/95 backdrop-blur-xl border border-zinc-800 rounded-2xl shadow-2xl transform scale-95 opacity-0 transition-all duration-300">
+            <!-- Botón cerrar -->
+            <button id="closeTypographyModal" class="absolute top-4 right-4 p-2 text-zinc-500 hover:text-white transition duration-300 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            
+            <!-- Contenido del modal -->
+            <div class="grid md:grid-cols-2 gap-8 p-8">
+                <!-- Imagen -->
+                <div class="rounded-lg overflow-hidden bg-zinc-800">
+                    <img src="tipografía/tipografia.png" alt="Tipografía" class="w-full h-full object-cover">
+                </div>
+                
+                <!-- Descripción -->
+                <div class="flex flex-col justify-center">
+                    <h3 class="text-2xl font-bold text-white mb-4">Diseño Tipográfico</h3>
+                    <p class="text-zinc-400 mb-6 leading-relaxed">
+                        Creación y desarrollo de tipografías personalizadas para proyectos de branding, identidad visual y diseño editorial. Especializado en diseño de lettering, fuentes personalizadas y sistemas tipográficos que comunican con carácter y personalidad única.
+                    </p>
+                    
+                    <!-- Botón de descarga -->
+                    <a href="tipografía/LTD_Tuna.zip" download class="mb-6 inline-flex items-center justify-center gap-2 px-6 py-3 bg-zinc-800 hover:bg-zinc-700 text-white rounded-lg transition duration-300 border border-zinc-700 hover:border-zinc-600 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 group-hover:translate-y-0.5 transition duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                        </svg>
+                        <span class="font-medium">Descargar tipografía</span>
+                    </a>
+                    
+                    <div class="border-t border-zinc-800 pt-6">
+                        <h4 class="text-sm font-semibold text-zinc-500 uppercase tracking-wider mb-3">Herramientas</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Illustrator</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Glyphs</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">FontLab</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Procreate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Ilustración -->
+    <!-- Modal de Fotografía -->
+    <div id="photographyModal" class="fixed inset-0 z-50 pointer-events-none">
+        <!-- Overlay -->
+        <div id="photographyModalOverlay" class="absolute inset-0 bg-black/70 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        
+        <!-- Contenedor del modal -->
+        <div id="photographyModalContent" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-5xl bg-zinc-900/95 backdrop-blur-xl border border-zinc-800 rounded-2xl shadow-2xl transform scale-95 opacity-0 transition-all duration-300 max-h-[90vh] overflow-y-auto">
+            <!-- Botón cerrar -->
+            <button id="closePhotographyModal" class="absolute top-4 right-4 p-2 text-zinc-500 hover:text-white transition duration-300 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            
+            <!-- Contenido del modal -->
+            <div class="grid md:grid-cols-2 gap-8 p-8">
+                <!-- Galería de imágenes -->
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="fotografia/cross.jpg" alt="Fotografía" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="fotografia/dani.jpg" alt="Fotografía" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="fotografia/flor.jpg" alt="Fotografía" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="fotografia/gorra.jpg" alt="Fotografía" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="fotografia/luna.webp" alt="Fotografía" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="fotografia/sonrrisa.jpg" alt="Fotografía" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                </div>
+                
+                <!-- Descripción -->
+                <div class="flex flex-col justify-center">
+                    <h3 class="text-2xl font-bold text-white mb-4">Fotografía Editorial</h3>
+                    <p class="text-zinc-400 mb-6 leading-relaxed">
+                        Captura de momentos únicos con un enfoque editorial y artístico. Especializado en retratos, fotografía de producto y composiciones visuales que cuentan historias. Cada imagen busca transmitir emociones y crear conexiones visuales impactantes.
+                    </p>
+                    <div class="border-t border-zinc-800 pt-6">
+                        <h4 class="text-sm font-semibold text-zinc-500 uppercase tracking-wider mb-3">Herramientas</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Lightroom</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Photoshop</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Capture One</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Ilustración -->
+    <div id="illustrationModal" class="fixed inset-0 z-50 pointer-events-none">
+        <!-- Overlay -->
+        <div id="illustrationModalOverlay" class="absolute inset-0 bg-black/70 backdrop-blur-sm opacity-0 transition-opacity duration-300"></div>
+        
+        <!-- Contenedor del modal -->
+        <div id="illustrationModalContent" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90%] max-w-5xl bg-zinc-900/95 backdrop-blur-xl border border-zinc-800 rounded-2xl shadow-2xl transform scale-95 opacity-0 transition-all duration-300 max-h-[90vh] overflow-y-auto">
+            <!-- Botón cerrar -->
+            <button id="closeIllustrationModal" class="absolute top-4 right-4 p-2 text-zinc-500 hover:text-white transition duration-300 z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            
+            <!-- Contenido del modal -->
+            <div class="grid md:grid-cols-2 gap-8 p-8">
+                <!-- Galería de imágenes -->
+                <div class="grid grid-cols-2 gap-3">
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="ilustracion/personaje.jpg" alt="Ilustración" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="ilustracion/craneo.webp" alt="Ilustración" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="ilustracion/cartel2.webp" alt="Ilustración" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="ilustracion/cartel.webp" alt="Ilustración" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="ilustracion/lata.png" alt="Ilustración" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                    <div class="rounded-lg overflow-hidden bg-zinc-800 aspect-square">
+                        <img src="ilustracion/barra.png" alt="Ilustración" class="w-full h-full object-cover hover:scale-105 transition duration-500 cursor-pointer grayscale hover:grayscale-0">
+                    </div>
+                </div>
+                
+                <!-- Descripción -->
+                <div class="flex flex-col justify-center">
+                    <h3 class="text-2xl font-bold text-white mb-4">Ilustración Digital</h3>
+                    <p class="text-zinc-400 mb-6 leading-relaxed">
+                        Creación de ilustraciones digitales originales, desde concept art hasta ilustraciones editoriales. Especializado en diseño de personajes, carteles y composiciones visuales con un enfoque en narrativa y expresión artística.
+                    </p>
+                    <div class="border-t border-zinc-800 pt-6">
+                        <h4 class="text-sm font-semibold text-zinc-500 uppercase tracking-wider mb-3">Herramientas</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Illustrator</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Photoshop</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Procreate</span>
+                            <span class="px-3 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-full">Clip Studio Paint</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+
+        <!-- 1. Presentación -->
+        <section id="presentacion" class="relative min-h-[85vh] flex items-center overflow-hidden border-b border-zinc-800">
+            
+            <!-- A. Video de Fondo -->
+            <div class="absolute inset-0 z-0">
+                <video 
+                    autoplay 
+                    muted 
+                    loop 
+                    playsinline
+                    class="w-full h-full object-cover opacity-60"
+                >
+                    <source src="videos/flor.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <!-- B. Superposición en Degradado (Gradient Overlay) -->
+            <div class="absolute inset-0 z-0 bg-gradient-to-r from-zinc-900 via-zinc-900/90 to-zinc-900/30"></div>
+            <!-- Degradado adicional desde abajo para móviles -->
+            <div class="absolute inset-0 z-0 bg-gradient-to-t from-zinc-900 via-transparent to-transparent md:hidden"></div>
+
+            <!-- C. Contenido con Drop Shadow Intenso -->
+            <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full drop-shadow-[0_15px_15px_rgba(0,0,0,0.9)]">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    
+                    <!-- Foto de Perfil -->
+                    <div class="flex-shrink-0 animate-on-scroll">
+                        <div class="relative group">
+                            <!-- Efecto de brillo sutil detrás de la foto -->
+                            <div class="absolute -inset-1 bg-gradient-to-r from-zinc-600 to-zinc-800 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+                            <img src="images/cv.jpg" alt="[Image of Foto de Perfil]" class="relative w-40 h-40 md:w-56 md:h-56 rounded-full object-cover border-2 border-zinc-700 shadow-2xl">
+                        </div>
+                    </div>
+                    
+                    <!-- Textos -->
+                    <div class="text-center md:text-left max-w-2xl animate-on-scroll animate-delay-200">
+                        <span class="inline-flex items-center gap-2 py-1 px-3 rounded-full bg-zinc-800/50 border border-zinc-700 backdrop-blur-sm text-xs text-zinc-400 mb-6 uppercase tracking-widest font-semibold shadow-lg">
+                            <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+                            Portafolio 2025
+                        </span>
+                        <!-- TAMAÑO REDUCIDO -->
+                        <h1 class="text-2xl sm:text-4xl md:text-5xl mb-6 text-white leading-tight font-poiret uppercase drop-shadow-md glow-text">
+                            Pablo <span class="font-bold">Hurtado Valdés</span>
+                        </h1>
+                        <!-- DESCRIPCIÓN RESUMIDA -->
+                        <p class="text-xl md:text-2xl text-zinc-200 font-light mb-8 leading-relaxed drop-shadow-md">
+                            <span class="text-white font-bold tracking-wider">Diseñador Multimedia</span> enfocado en la creación de experiencias visuales interactivas y narrativas digitales. Especializado en UI/UX, Motion Graphics y post-producción de video.
+                        </p>
+                        
+                        <!-- Botones de Contacto -->
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                            <a href="https://wa.me/525565007278" target="_blank" class="px-8 py-3 bg-white text-zinc-900 font-semibold rounded-full hover:bg-zinc-200 transition duration-300 shadow-[0_0_20px_rgba(255,255,255,0.3)] flex items-center justify-center gap-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                                </svg>
+                                Contactar Ahora
+                            </a>
+                            <a href="#galeria" class="px-8 py-3 bg-black/30 border border-zinc-400 text-white font-medium rounded-full hover:bg-zinc-800 hover:border-zinc-500 transition duration-300 backdrop-blur-sm shadow-lg">
+                                Ver Trabajos
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Habilidades y plataformas de diseño (MODIFICADO: 1 fila, scroll horizontal, scrollbar oculto) -->
+        <section id="habilidades" class="section-padding py-20 border-b border-zinc-800 bg-zinc-900 relative overflow-hidden animate-on-scroll">
+            <!-- Video de fondo -->
+            <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover opacity-40">
+                <source src="videos/black.mp4" type="video/mp4">
+            </video>
+            
+            <!-- Contenido con z-index -->
+            <div class="relative z-10">
+            <h2 class="text-3xl font-bold tracking-tight mb-12 text-center text-zinc-100">Habilidades Técnicas</h2>
+            
+            <!-- Contenedor con grid responsive que mantiene la estructura -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-6 max-w-7xl mx-auto px-4 justify-items-center">
+                
+                <!-- UI/UX Design -->
+                <div class="p-6 bg-zinc-800/70 rounded-2xl border border-zinc-400 hover:border-zinc-300 transition duration-500 group text-center shadow-[0_0_15px_rgba(113,113,122,0.3)] w-32 h-32 flex flex-col items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white mb-3 transition duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6"/><path d="M12 18v4"/><path d="M4 10h16"/><path d="M4 14h16"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="M7 21a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2z"/></svg>
+                    <p class="font-medium text-xs text-zinc-100 leading-tight">Diseño UI/UX</p>
+                </div>
+                
+                <!-- Bilingüe -->
+                <div class="p-6 bg-zinc-800/70 rounded-2xl border border-zinc-400 hover:border-zinc-300 transition duration-500 group text-center shadow-[0_0_15px_rgba(113,113,122,0.3)] w-32 h-32 flex flex-col items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white mb-3 transition duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+                    <p class="font-medium text-xs text-zinc-100 leading-tight">Bilingüe</p>
+                </div>
+                
+                <!-- Video Editing -->
+                <div id="videoEditingCard" class="p-6 bg-zinc-800/50 rounded-2xl border border-zinc-800 hover:border-zinc-600 transition duration-500 group text-center w-32 h-32 flex flex-col items-center justify-center cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-zinc-500 group-hover:text-white mb-3 transition duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 16v1a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h4l2 2h6a2 2 0 0 1 2 2v4"/><path d="M2.5 10A1.5 1.5 0 0 0 4 11.5v6.5a2 2 0 0 0 2 2h12.5a.5.5 0 0 0 .5-.5V14.5"/><path d="m14 18-5-5-5 5"/></svg>
+                    <p class="font-medium text-xs text-zinc-200 leading-tight">Edición de Video</p>
+                </div>
+
+                <!-- Motion -->
+                <div id="motionCard" class="p-6 bg-zinc-800/50 rounded-2xl border border-zinc-800 hover:border-zinc-600 transition duration-500 group text-center w-32 h-32 flex flex-col items-center justify-center cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-zinc-500 group-hover:text-white mb-3 transition duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m3.75 7.5 7.5-3.75 7.5 3.75"/><path d="m3.75 12 7.5-3.75 7.5 3.75"/><path d="m3.75 16.5 7.5-3.75 7.5 3.75"/></svg>
+                    <p class="font-medium text-xs text-zinc-200 leading-tight">Motion</p>
+                </div>
+                
+                <!-- Illustration -->
+                <div id="illustrationCard" class="p-6 bg-zinc-800/50 rounded-2xl border border-zinc-800 hover:border-zinc-600 transition duration-500 group text-center w-32 h-32 flex flex-col items-center justify-center cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-zinc-500 group-hover:text-white mb-3 transition duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m8 7 8 8"/><path d="m16 7-8 8"/></svg>
+                    <p class="font-medium text-xs text-zinc-200 leading-tight">Ilustración</p>
+                </div>
+                
+                <!-- Photography -->
+                <div id="photographyCard" class="p-6 bg-zinc-800/50 rounded-2xl border border-zinc-800 hover:border-zinc-600 transition duration-500 group text-center w-32 h-32 flex flex-col items-center justify-center cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-zinc-500 group-hover:text-white mb-3 transition duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="3"/><path d="M18 20a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3.17a2 2 0 0 1-1.41-.58L12 5l-.71-.71a2 2 0 0 0-1.41-.58H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.17a2 2 0 0 1 1.41.58L12 21l.71.71a2 2 0 0 0 1.41.58H18Z"/></svg>
+                    <p class="font-medium text-xs text-zinc-200 leading-tight">Fotografía</p>
+                </div>
+                
+                <!-- Typography -->
+                <div id="typographyCard" class="p-6 bg-zinc-800/50 rounded-2xl border border-zinc-800 hover:border-zinc-600 transition duration-500 group text-center w-32 h-32 flex flex-col items-center justify-center cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-zinc-500 group-hover:text-white mb-3 transition duration-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4h16v3M9 20h6M12 4v16"/></svg>
+                    <p class="font-medium text-xs text-zinc-200 leading-tight">Tipografía</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- 3. Trabajo más reciente -->
+        <section id="trabajo-reciente" class="section-padding border-b border-zinc-800 bg-zinc-900/50 animate-on-scroll">
+            <div class="flex items-end justify-between mb-10">
+                <h2 class="text-4xl font-bold tracking-tighter text-white">Último Proyecto</h2>
+                <span class="hidden md:block text-zinc-500 font-mono text-sm">01 / RECIENTE</span>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Video Container -->
+                <div class="group relative bg-zinc-800 rounded-lg p-2 border border-zinc-800 hover:border-zinc-600 transition duration-500">
+                    <div class="video-container rounded overflow-hidden bg-black">
+                        <iframe 
+                            src="videos/hirono.mp4" 
+                            title="Proyecto Reciente" 
+                            frameborder="0" 
+                            class="opacity-90 group-hover:opacity-100 transition duration-500 grayscale group-hover:grayscale-0"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Descripción -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <span class="w-2 h-2 bg-white rounded-full animate-pulse"></span>
+                        <span class="text-xs font-bold tracking-widest text-zinc-400 uppercase">En Desarrollo</span>
+                    </div>
+                    <h3 class="text-3xl font-bold mb-6 text-white leading-tight">"Hirono": Stopmotion & puppetry</h3>
+                    <p class="text-zinc-400 mb-6 text-lg font-light leading-relaxed">
+                        Una práctica multidiciplinaria que combina técnicas de stop-motion y puppetry para crear una narrativa visual única. Este proyecto explora la interacción entre personajes animados y escenarios físicos, destacando la atención al detalle y la creatividad en cada fotograma.
+                    </p>
+                    <div class="border-l-2 border-zinc-700 pl-6 my-8">
+                        <blockquote class="text-zinc-500 italic">"El diseño a través del movimiento"</blockquote>
+                    </div>
+                    <a id="hironoButton" href="#" class="inline-flex items-center text-white border-b border-transparent hover:border-white transition duration-300 pb-1">
+                        Conocer Más
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" /></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Galería -->
+        <section id="galeria" class="section-padding border-b border-zinc-800 animate-on-scroll">
+            <div class="flex items-end justify-between mb-12">
+                <h2 class="text-3xl font-bold tracking-tight text-white">Selección de Trabajos</h2>
+                <span class="hidden md:block text-zinc-500 font-mono text-sm">02 / PORTAFOLIO</span>
+            </div>
+            
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Item 1 -->
+                <div class="group cursor-pointer">
+                    <div id="editorialImage" class="relative overflow-hidden rounded-lg mb-4">
+                        <div class="absolute inset-0 bg-black/40 group-hover:bg-transparent transition duration-500 z-10"></div>
+                        <img src="revista/revista.webp" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-700 ease-out filter grayscale group-hover:grayscale-0" alt="Diseño Editorial">
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-1 group-hover:translate-x-2 transition duration-300">Diseño Editorial</h4>
+                    <p class="text-sm text-zinc-500 mb-3 group-hover:translate-x-2 transition duration-300 delay-75">Revistas, presentaciones y medios impresos</p>
+                    <a href="revista/revista.pdf" download class="inline-flex items-center gap-2 px-4 py-2 bg-zinc-800 hover:bg-zinc-700 text-white text-xs rounded-lg transition duration-300 border border-zinc-700 hover:border-zinc-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                        </svg>
+                        <span>Descargar muestra</span>
+                    </a>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="group cursor-pointer">
+                    <div id="mockupImage" class="relative overflow-hidden rounded-lg mb-4">
+                        <div class="absolute inset-0 bg-black/40 group-hover:bg-transparent transition duration-500 z-10"></div>
+                        <img src="mock/1.webp" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-700 ease-out filter grayscale group-hover:grayscale-0" alt="Branding & Mockups">
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-1 group-hover:translate-x-2 transition duration-300">Branding & Mockups</h4>
+                    <p class="text-sm text-zinc-500 group-hover:translate-x-2 transition duration-300 delay-75">Maquetas e identidad visual</p>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="group cursor-pointer">
+                    <div id="canvasImage" class="relative overflow-hidden rounded-lg mb-4">
+                        <div class="absolute inset-0 bg-black/40 group-hover:bg-transparent transition duration-500 z-10"></div>
+                        <img src="canvas/cartel.webp" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-700 ease-out filter grayscale group-hover:grayscale-0" alt="Publicidad y Canvas">
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-1 group-hover:translate-x-2 transition duration-300">Publicidad y Canvas</h4>
+                    <p class="text-sm text-zinc-500 group-hover:translate-x-2 transition duration-300 delay-75">Stickers, corte laser, vectorización y escala</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Otros Trabajos -->
+        <section id="otros-trabajos" class="section-padding py-20 border-b border-zinc-800 bg-zinc-900/30 animate-on-scroll">
+            <h2 class="text-2xl font-bold mb-8 text-zinc-300">Archivo Adicional</h2>
+            <div class="space-y-1">
+                <a href="extra/cv.pdf" download class="flex justify-between items-center p-6 border-b border-zinc-800 hover:bg-zinc-800 transition duration-300 group">
+                    <div>
+                        <h4 class="text-lg text-white group-hover:translate-x-2 transition duration-300">Descarga mi Curriculum Vitae</h4>
+                        <p class="text-sm text-zinc-500 mt-1 group-hover:translate-x-2 transition duration-300 delay-75">Diseñador Multimedia y Artista Digital</p>
+                    </div>
+                    <span class="text-zinc-600 font-mono text-xs group-hover:text-white transition">2025</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- 6. Trayectoria -->
+        <section id="trayectoria" class="section-padding bg-zinc-900 animate-on-scroll">
+            <h2 class="text-3xl font-bold tracking-tight mb-12 text-center md:text-left text-white">Academia</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="border-t border-zinc-700 pt-6">
+                    <span class="text-4xl font-bold text-zinc-800 mb-4 block">01</span>
+                    <h3 class="text-xl text-white font-semibold mb-2">Diseño Multimedia y Arte Digital</h3>
+                    <p class="text-zinc-500 text-sm mb-4">Universidad del Valle de México<br> Campus Coyoacán 2022 - act.</p>
+                    <p class="text-zinc-400 text-sm leading-relaxed">Formación integral en animación, modelado 3D y narrativa visual interactiva.</p>
+                </div>
+                <div class="border-t border-zinc-700 pt-6">
+                    <span class="text-4xl font-bold text-zinc-800 mb-4 block">02</span>
+                    <h3 class="text-xl text-white font-semibold mb-2">UX/UI Design</h3>
+                    <p class="text-zinc-500 text-sm mb-4">Platzi Bootcamp<br>2023</p>
+                    <p class="text-zinc-400 text-sm leading-relaxed">Especialización intensiva en sistemas de diseño, accesibilidad web y testing A/B.</p>
+                </div>
+                <div class="border-t border-zinc-700 pt-6">
+                    <span class="text-4xl font-bold text-zinc-800 mb-4 block">03</span>
+                    <h3 class="text-xl text-white font-semibold mb-2">Fotografía Digital</h3>
+                    <p class="text-zinc-500 text-sm mb-4">Centro de Estudios Visuales<br>2017</p>
+                    <p class="text-zinc-400 text-sm leading-relaxed">Dominio técnico de la luz, composición y post-producción digital avanzada.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="bg-black text-white py-12 border-t border-zinc-900">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col items-center space-y-6">
+            <!-- Contenido del footer -->
+            <div class="flex flex-col md:flex-row justify-center items-center w-full">
+                <p class="text-zinc-600 text-sm">© 2025 Pablo Hurtado Valdés. Design Portfolio.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Enlace a archivo JavaScript externo -->
+    <script src="script.js"></script>
+    
+    <!-- Script del menú móvil -->
+    <script>
+        const menuButton = document.getElementById('menuButton');
+        const closeMenu = document.getElementById('closeMenu');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuPanel = document.getElementById('menuPanel');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const menuLinks = document.querySelectorAll('#menuPanel a');
+        let isMenuOpen = false;
+
+        function openMenu() {
+            mobileMenu.classList.remove('pointer-events-none');
+            mobileMenu.classList.add('pointer-events-auto');
+            menuOverlay.classList.remove('opacity-0');
+            menuOverlay.classList.add('opacity-100');
+            menuPanel.classList.remove('translate-x-full');
+            menuPanel.classList.add('translate-x-0');
+            menuButton.classList.add('text-zinc-400');
+            menuButton.classList.remove('text-white');
+            isMenuOpen = true;
+        }
+
+        function closeMenuFunc() {
+            mobileMenu.classList.add('pointer-events-none');
+            mobileMenu.classList.remove('pointer-events-auto');
+            menuOverlay.classList.add('opacity-0');
+            menuOverlay.classList.remove('opacity-100');
+            menuPanel.classList.add('translate-x-full');
+            menuPanel.classList.remove('translate-x-0');
+            menuButton.classList.remove('text-zinc-400');
+            menuButton.classList.add('text-white');
+            isMenuOpen = false;
+        }
+
+        function toggleMenu() {
+            if (isMenuOpen) {
+                closeMenuFunc();
+            } else {
+                openMenu();
+            }
+        }
+
+        menuButton.addEventListener('click', toggleMenu);
+        closeMenu.addEventListener('click', closeMenuFunc);
+        menuOverlay.addEventListener('click', closeMenuFunc);
+        
+        // Cerrar menú al hacer click en un enlace
+        menuLinks.forEach(link => {
+            link.addEventListener('click', closeMenuFunc);
+        });
+
+        // Cerrar menú al cambiar a pantalla de escritorio
+        window.addEventListener('resize', function() {
+            if (window.innerWidth >= 768 && isMenuOpen) {
+                closeMenuFunc();
+            }
+        });
+
+        // Hacer transparente la barra al hacer scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                navbar.classList.remove('bg-zinc-900/80');
+                navbar.classList.add('bg-zinc-900/20');
+            } else {
+                navbar.classList.remove('bg-zinc-900/20');
+                navbar.classList.add('bg-zinc-900/80');
+            }
+        });
+
+        // Indicar sección activa en el menú
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-link');
+        const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+        function setActiveLink() {
+            let currentSection = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= sectionTop - 200) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            // Actualizar menú superior
+            navLinks.forEach(link => {
+                const linkHref = link.getAttribute('href').substring(1);
+                const underline = link.querySelector('span');
+                
+                if (linkHref === currentSection) {
+                    link.classList.add('text-white');
+                    link.classList.remove('text-zinc-400');
+                    underline.classList.add('w-full');
+                    underline.classList.remove('w-0');
+                } else {
+                    link.classList.remove('text-white');
+                    underline.classList.remove('w-full');
+                    underline.classList.add('w-0');
+                }
+            });
+
+            // Actualizar menú móvil
+            mobileNavLinks.forEach(link => {
+                const linkHref = link.getAttribute('href').substring(1);
+                const indicator = link.querySelector('span');
+                
+                if (linkHref === currentSection) {
+                    link.classList.add('text-white');
+                    link.classList.remove('text-zinc-400');
+                    indicator.classList.add('w-4');
+                    indicator.classList.remove('w-0');
+                } else {
+                    link.classList.remove('text-white');
+                    indicator.classList.remove('w-4');
+                    indicator.classList.add('w-0');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', setActiveLink);
+        setActiveLink(); // Llamar al cargar la página
+
+        // Modal de Edición de Video
+        const videoEditingCard = document.getElementById('videoEditingCard');
+        const videoModal = document.getElementById('videoModal');
+        const videoModalOverlay = document.getElementById('videoModalOverlay');
+        const videoModalContent = document.getElementById('videoModalContent');
+        const closeVideoModal = document.getElementById('closeVideoModal');
+        const modalVideo = document.getElementById('modalVideo');
+
+        function openVideoModal() {
+            videoModal.classList.remove('pointer-events-none');
+            videoModal.classList.add('pointer-events-auto');
+            videoModalOverlay.classList.remove('opacity-0');
+            videoModalOverlay.classList.add('opacity-100');
+            videoModalContent.classList.remove('scale-95', 'opacity-0');
+            videoModalContent.classList.add('scale-100', 'opacity-100');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeVideoModalFunc() {
+            videoModal.classList.add('pointer-events-none');
+            videoModal.classList.remove('pointer-events-auto');
+            videoModalOverlay.classList.add('opacity-0');
+            videoModalOverlay.classList.remove('opacity-100');
+            videoModalContent.classList.add('scale-95', 'opacity-0');
+            videoModalContent.classList.remove('scale-100', 'opacity-100');
+            document.body.style.overflow = 'auto';
+            modalVideo.pause();
+        }
+
+        videoEditingCard.addEventListener('click', openVideoModal);
+        closeVideoModal.addEventListener('click', closeVideoModalFunc);
+        videoModalOverlay.addEventListener('click', closeVideoModalFunc);
+
+        // Modal de Motion Graphics
+        const motionCard = document.getElementById('motionCard');
+        const motionModal = document.getElementById('motionModal');
+        const motionModalOverlay = document.getElementById('motionModalOverlay');
+        const motionModalContent = document.getElementById('motionModalContent');
+        const closeMotionModal = document.getElementById('closeMotionModal');
+        const motionVideo = document.getElementById('motionVideo');
+
+        function openMotionModal() {
+            motionModal.classList.remove('pointer-events-none');
+            motionModal.classList.add('pointer-events-auto');
+            motionModalOverlay.classList.remove('opacity-0');
+            motionModalOverlay.classList.add('opacity-100');
+            motionModalContent.classList.remove('scale-95', 'opacity-0');
+            motionModalContent.classList.add('scale-100', 'opacity-100');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMotionModalFunc() {
+            motionModal.classList.add('pointer-events-none');
+            motionModal.classList.remove('pointer-events-auto');
+            motionModalOverlay.classList.add('opacity-0');
+            motionModalOverlay.classList.remove('opacity-100');
+            motionModalContent.classList.add('scale-95', 'opacity-0');
+            motionModalContent.classList.remove('scale-100', 'opacity-100');
+            document.body.style.overflow = 'auto';
+            motionVideo.pause();
+        }
+
+        motionCard.addEventListener('click', openMotionModal);
+        closeMotionModal.addEventListener('click', closeMotionModalFunc);
+        motionModalOverlay.addEventListener('click', closeMotionModalFunc);
+
+        // Modal de Ilustración
+        const illustrationCard = document.getElementById('illustrationCard');
+        const illustrationModal = document.getElementById('illustrationModal');
+        const illustrationModalOverlay = document.getElementById('illustrationModalOverlay');
+        const illustrationModalContent = document.getElementById('illustrationModalContent');
+        const closeIllustrationModal = document.getElementById('closeIllustrationModal');
+
+        function openIllustrationModal() {
+            illustrationModal.classList.remove('pointer-events-none');
+            illustrationModal.classList.add('pointer-events-auto');
+            illustrationModalOverlay.classList.remove('opacity-0');
+            illustrationModalOverlay.classList.add('opacity-100');
+            illustrationModalContent.classList.remove('scale-95', 'opacity-0');
+            illustrationModalContent.classList.add('scale-100', 'opacity-100');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeIllustrationModalFunc() {
+            illustrationModal.classList.add('pointer-events-none');
+            illustrationModal.classList.remove('pointer-events-auto');
+            illustrationModalOverlay.classList.add('opacity-0');
+            illustrationModalOverlay.classList.remove('opacity-100');
+            illustrationModalContent.classList.add('scale-95', 'opacity-0');
+            illustrationModalContent.classList.remove('scale-100', 'opacity-100');
+            document.body.style.overflow = 'auto';
+        }
+
+        illustrationCard.addEventListener('click', openIllustrationModal);
+        closeIllustrationModal.addEventListener('click', closeIllustrationModalFunc);
+        illustrationModalOverlay.addEventListener('click', closeIllustrationModalFunc);
+
+        // Modal de Fotografía
+        const photographyCard = document.getElementById('photographyCard');
+        const photographyModal = document.getElementById('photographyModal');
+        const photographyModalOverlay = document.getElementById('photographyModalOverlay');
+        const photographyModalContent = document.getElementById('photographyModalContent');
+        const closePhotographyModal = document.getElementById('closePhotographyModal');
+
+        function openPhotographyModal() {
+            photographyModal.classList.remove('pointer-events-none');
+            photographyModal.classList.add('pointer-events-auto');
+            photographyModalOverlay.classList.remove('opacity-0');
+            photographyModalOverlay.classList.add('opacity-100');
+            photographyModalContent.classList.remove('scale-95', 'opacity-0');
+            photographyModalContent.classList.add('scale-100', 'opacity-100');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closePhotographyModalFunc() {
+            photographyModal.classList.add('pointer-events-none');
+            photographyModal.classList.remove('pointer-events-auto');
+            photographyModalOverlay.classList.add('opacity-0');
+            photographyModalOverlay.classList.remove('opacity-100');
+            photographyModalContent.classList.add('scale-95', 'opacity-0');
+            photographyModalContent.classList.remove('scale-100', 'opacity-100');
+            document.body.style.overflow = 'auto';
+        }
+
+        photographyCard.addEventListener('click', openPhotographyModal);
+        closePhotographyModal.addEventListener('click', closePhotographyModalFunc);
+        photographyModalOverlay.addEventListener('click', closePhotographyModalFunc);
+
+        // Modal de Tipografía
+        const typographyCard = document.getElementById('typographyCard');
+        const typographyModal = document.getElementById('typographyModal');
+        const typographyModalOverlay = document.getElementById('typographyModalOverlay');
+        const typographyModalContent = document.getElementById('typographyModalContent');
+        const closeTypographyModal = document.getElementById('closeTypographyModal');
+
+        function openTypographyModal() {
+            typographyModal.classList.remove('pointer-events-none');
+            typographyModal.classList.add('pointer-events-auto');
+            typographyModalOverlay.classList.remove('opacity-0');
+            typographyModalOverlay.classList.add('opacity-100');
+            typographyModalContent.classList.remove('scale-95', 'opacity-0');
+            typographyModalContent.classList.add('scale-100', 'opacity-100');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeTypographyModalFunc() {
+            typographyModal.classList.add('pointer-events-none');
+            typographyModal.classList.remove('pointer-events-auto');
+            typographyModalOverlay.classList.add('opacity-0');
+            typographyModalOverlay.classList.remove('opacity-100');
+            typographyModalContent.classList.add('scale-95', 'opacity-0');
+            typographyModalContent.classList.remove('scale-100', 'opacity-100');
+            document.body.style.overflow = 'auto';
+        }
+
+        typographyCard.addEventListener('click', openTypographyModal);
+        closeTypographyModal.addEventListener('click', closeTypographyModalFunc);
+        typographyModalOverlay.addEventListener('click', closeTypographyModalFunc);
+
+        // Modal de Diseño Editorial
+        const editorialImage = document.getElementById('editorialImage');
+        const editorialModal = document.getElementById('editorialModal');
+        const editorialModalOverlay = document.getElementById('editorialModalOverlay');
+        const editorialModalContent = document.getElementById('editorialModalContent');
+        const closeEditorialModal = document.getElementById('closeEditorialModal');
+
+        function openEditorialModal() {
+            editorialModal.classList.remove('pointer-events-none');
+            editorialModal.classList.add('pointer-events-auto');
+            editorialModalOverlay.classList.remove('opacity-0');
+            editorialModalOverlay.classList.add('opacity-100');
+            editorialModalContent.classList.remove('scale-95', 'opacity-0');
+            editorialModalContent.classList.add('scale-100', 'opacity-100');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeEditorialModalFunc() {
+            editorialModal.classList.add('pointer-events-none');
+            editorialModal.classList.remove('pointer-events-auto');
+            editorialModalOverlay.classList.add('opacity-0');
+            editorialModalOverlay.classList.remove('opacity-100');
+            editorialModalContent.classList.add('scale-95', 'opacity-0');
+            editorialModalContent.classList.remove('scale-100', 'opacity-100');
+            document.body.style.overflow = 'auto';
+        }
+
+        editorialImage.addEventListener('click', openEditorialModal);
+        closeEditorialModal.addEventListener('click', closeEditorialModalFunc);
+        editorialModalOverlay.addEventListener('click', closeEditorialModalFunc);
+
+        // Modal de Branding & Mockups
+        const mockupImage = document.getElementById('mockupImage');
+        const mockupModal = document.getElementById('mockupModal');
+        const mockupModalOverlay = document.getElementById('mockupModalOverlay');
+        const mockupModalContent = document.getElementById('mockupModalContent');
+        const closeMockupModal = document.getElementById('closeMockupModal');
+
+        function openMockupModal() {
+            mockupModal.classList.remove('pointer-events-none');
+            mockupModal.classList.add('pointer-events-auto');
+            mockupModalOverlay.classList.remove('opacity-0');
+            mockupModalOverlay.classList.add('opacity-100');
+            mockupModalContent.classList.remove('scale-95', 'opacity-0');
+            mockupModalContent.classList.add('scale-100', 'opacity-100');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMockupModalFunc() {
+            mockupModal.classList.add('pointer-events-none');
+            mockupModal.classList.remove('pointer-events-auto');
+            mockupModalOverlay.classList.add('opacity-0');
+            mockupModalOverlay.classList.remove('opacity-100');
+            mockupModalContent.classList.add('scale-95', 'opacity-0');
+            mockupModalContent.classList.remove('scale-100', 'opacity-100');
+            document.body.style.overflow = 'auto';
+        }
+
+        mockupImage.addEventListener('click', openMockupModal);
+        closeMockupModal.addEventListener('click', closeMockupModalFunc);
+        mockupModalOverlay.addEventListener('click', closeMockupModalFunc);
+
+        // Modal de Publicidad y Canvas
+        const canvasImage = document.getElementById('canvasImage');
+        const canvasModal = document.getElementById('canvasModal');
+        const canvasModalOverlay = document.getElementById('canvasModalOverlay');
+        const canvasModalContent = document.getElementById('canvasModalContent');
+        const closeCanvasModal = document.getElementById('closeCanvasModal');
+
+        function openCanvasModal() {
+            canvasModal.classList.remove('pointer-events-none');
+            canvasModal.classList.add('pointer-events-auto');
+            canvasModalOverlay.classList.remove('opacity-0');
+            canvasModalOverlay.classList.add('opacity-100');
+            canvasModalContent.classList.remove('scale-95', 'opacity-0');
+            canvasModalContent.classList.add('scale-100', 'opacity-100');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeCanvasModalFunc() {
+            canvasModal.classList.add('pointer-events-none');
+            canvasModal.classList.remove('pointer-events-auto');
+            canvasModalOverlay.classList.add('opacity-0');
+            canvasModalOverlay.classList.remove('opacity-100');
+            canvasModalContent.classList.add('scale-95', 'opacity-0');
+            canvasModalContent.classList.remove('scale-100', 'opacity-100');
+            document.body.style.overflow = 'auto';
+        }
+
+        canvasImage.addEventListener('click', openCanvasModal);
+        closeCanvasModal.addEventListener('click', closeCanvasModalFunc);
+        canvasModalOverlay.addEventListener('click', closeCanvasModalFunc);
+
+        // Modal de Hirono
+        const hironoButton = document.getElementById('hironoButton');
+        const hironoModal = document.getElementById('hironoModal');
+        const hironoModalOverlay = document.getElementById('hironoModalOverlay');
+        const hironoModalContent = document.getElementById('hironoModalContent');
+        const closeHironoModal = document.getElementById('closeHironoModal');
+
+        function openHironoModal(e) {
+            e.preventDefault();
+            hironoModal.classList.remove('pointer-events-none');
+            hironoModal.classList.add('pointer-events-auto');
+            hironoModalOverlay.classList.remove('opacity-0');
+            hironoModalOverlay.classList.add('opacity-100');
+            hironoModalContent.classList.remove('scale-95', 'opacity-0');
+            hironoModalContent.classList.add('scale-100', 'opacity-100');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeHironoModalFunc() {
+            hironoModal.classList.add('pointer-events-none');
+            hironoModal.classList.remove('pointer-events-auto');
+            hironoModalOverlay.classList.add('opacity-0');
+            hironoModalOverlay.classList.remove('opacity-100');
+            hironoModalContent.classList.add('scale-95', 'opacity-0');
+            hironoModalContent.classList.remove('scale-100', 'opacity-100');
+            document.body.style.overflow = 'auto';
+        }
+
+        hironoButton.addEventListener('click', openHironoModal);
+        closeHironoModal.addEventListener('click', closeHironoModalFunc);
+        hironoModalOverlay.addEventListener('click', closeHironoModalFunc);
+
+        // Intersection Observer para animaciones de entrada
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.animation = 'fadeInUp 0.8s ease-out forwards';
+                }
+            });
+        }, observerOptions);
+
+        // Observar todos los elementos con la clase animate-on-scroll
+        document.querySelectorAll('.animate-on-scroll').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+
+</body>
+</html>
